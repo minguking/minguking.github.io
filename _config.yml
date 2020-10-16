@@ -1,6 +1,10 @@
 title: Mingu's place
-description: Mingu Kang
+description: by. Mingu Kang
 show_downloads: true
+email: minqu.kang@gmail.com
+
 google_analytics:
 theme: jekyll-theme-midnight
 
+baseurl: ""
+url: "https://minguking.github.io/"
