@@ -1,7 +1,6 @@
 title: Mingu's place
 description: by. Mingu Kang
-show_downloads: true
-email: minqu.kang@gmail.com
+show_downloads: false
 
 google_analytics:
 theme: jekyll-theme-midnight
