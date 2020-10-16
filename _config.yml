@@ -3,7 +3,7 @@ description: by. Mingu Kang
 show_downloads: false
 
 google_analytics:
-theme: jekyll-theme-midnight
+#theme: jekyll-theme-midnight
 
 baseurl: ""
 url: "https://minguking.github.io/"
