@@ -152,16 +152,16 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+- index.html
+- archives.html
+- categories.html
+- tags.html
+- about.html
 
 # Page default value
 # defaults:
-#   home:
+home: "https://minguking.github.io/index.html"
 heading: "안녕하소"
 subheading: "this is minguking"
 banner: "https://github.com/minguking/minguking.github.io/assets/58521437/bef51b40-8f83-411a-ae04-731a89580d0c"
