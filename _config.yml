@@ -164,7 +164,7 @@ header_pages:
 home: "https://minguking.github.io/index.html"
 heading: "안녕하소"
 subheading: "this is minguking"
-banner: "https://github.com/minguking/minguking.github.io/assets/58521437/bef51b40-8f83-411a-ae04-731a89580d0c"
+banner: "/assets/images/profile1.jpeg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
