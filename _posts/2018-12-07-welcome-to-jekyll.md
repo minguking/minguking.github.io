@@ -5,7 +5,7 @@ subtitle: A awesome static site generator.
 author: Jeffrey
 categories: jekyll
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
+  video: https://github.com/minguking/minguking.github.io/assets/58521437/621b155c-aa57-4943-a9b6-d5d9aac11fbf
   loop: true
   volume: 0.8
   start_at: 8.5
