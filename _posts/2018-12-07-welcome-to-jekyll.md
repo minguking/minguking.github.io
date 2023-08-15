@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subtitle: A awesome static site generator.
-author: Jeffrey
-categories: jekyll
+title: Skydive!
+subtitle: My first Skydiving experience.
+author: minguking
+categories: experience
 banner:
   video: https://github.com/minguking/minguking.github.io/assets/58521437/621b155c-aa57-4943-a9b6-d5d9aac11fbf
   loop: true
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+tags: minguking skydiving
 sidebar: []
 ---
 
