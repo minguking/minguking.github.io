@@ -8,7 +8,7 @@ banner:
   video: https://github.com/minguking/minguking.github.io/assets/58521437/621b155c-aa57-4943-a9b6-d5d9aac11fbf
   loop: true
   volume: 0.8
-  start_at: 8.5
+  start_at: 0
   image: https://bit.ly/3xTmdUP
   opacity: 0.618
   background: "#000"
@@ -20,64 +20,18 @@ tags: minguking skydiving Australia Queensland AirlieBeach
 sidebar:
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+2016년 12월 7일
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+호주 퀸즐랜드 해밀턴 아일랜드에서 1시간 배를 타고 육지인 에얼리비치로 나와
+억지로 스카이다이빙을 했다.
+
+13,000ft 높이에서 뛰어내렸다. 약 4km의 높이
+
+내 뒤에 바짝붙어 같이 뛰어내리는 인스트럭터는 뛰어내리면서 내게 양 팔을 활짝 펼치라고 했지만
+난 그 말을 되뇌이기만 했을 뿐 대뇌운동은 이미 정지됐다.
+생판 처음보는 광경이 내 눈 앞에 매우 빠른 속도로 불어제끼고 있었고 약 3초 가량 뇌와 몸이 굳어버렸다.
+
+인스트럭터가 얼른 팔을 펴라며 내 몸을 몇 차례 툭툭 치고난 후에야 순간적으로 희미해져가던 정신이 돌아오고
+내 몸 아래로 펼쳐진 광경을 제대로 볼 수 있었다.
 
 
-```swift
-var swift = "swift"
-private func changeStr(_ str: String) -> String {
-    return "Updated" + str
-}
-
-```
-
-## section 1
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-## section 2
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
-```
-
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
-```
