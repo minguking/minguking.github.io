@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/markdown/2015/02/28/test-markdown.html</loc>
-<lastmod>2015-02-28T00:00:00+09:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/markdown/2016/01/01/another-test-markdown.html</loc>
 <lastmod>2016-01-01T00:00:00+09:00</lastmod>
 </url>
@@ -55,6 +51,10 @@
 <url>
 <loc>http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown.html</loc>
 <lastmod>2018-12-05T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/product/2023/08/20/%EC%9D%8C%EC%95%85%EC%96%98%EA%B8%B0.html</loc>
+<lastmod>2023-08-20T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>

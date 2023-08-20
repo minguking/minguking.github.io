@@ -20,6 +20,8 @@ tags: minguking skydiving Australia Queensland AirlieBeach
 sidebar:
 ---
 
+## Skydiving!
+
 2016년 12월 7일
 
 호주 퀸즐랜드 해밀턴 아일랜드에서 1시간 배를 타고 육지인 에얼리비치로 나와 억지로 스카이다이빙을 했다.
