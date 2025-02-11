@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         // leading: CloseButton(onPressed: () => GoRouter.of(context).pop()),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        // backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(_getSelectedAppBarTitle(_currentIndex)),
       ),
       body: widget.child,
