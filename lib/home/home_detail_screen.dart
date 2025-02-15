@@ -21,7 +21,7 @@ class _HomeDetailScreenState extends State<HomeDetailScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return Scaffold(
       appBar: AppBar(
         title: const Text('detail'),
