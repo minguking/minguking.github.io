@@ -68684,7 +68684,7 @@ r=A.cI(0,500,0)
 q=this.d?1:0
 p=m.e
 o=A.rU(20)
-return A.a0c(l,A.mg(n,A.aqi(A.dY(A.to(A.b([A.io(A.hb(m.c,n,n,!0,A.q7(n,n,B.k,n,n,n,n,n,"PretendardRegular",n,n,12,n,n,n,n,n,!0,n,n,n,n,n,n,n,n)),B.x,n,new A.dH(p,n,n,o,n,n,B.aZ),n,n,new A.aJ(16,10,16,10),n)],t.E),B.bt,B.cr),n,n),r,q),B.ag,!1,n,n,n,n,n,n,n,n,n,n,n,n,s,n,n,n),n,n,0,0,k,n)}}
+return A.a0c(l,A.mg(n,A.aqi(A.dY(A.to(A.b([A.io(A.hb(m.c,n,n,!0,A.q7(n,n,B.k,n,B.e,n,n,n,"PretendardRegular",n,n,12,n,n,n,n,n,!0,n,n,n,n,n,n,n,n)),B.x,n,new A.dH(p,n,n,o,n,n,B.aZ),n,n,new A.aJ(16,10,16,10),n)],t.E),B.bt,B.cr),n,n),r,q),B.ag,!1,n,n,n,n,n,n,n,n,n,n,n,n,s,n,n,n),n,n,0,0,k,n)}}
 A.a8N.prototype={
 $0(){var s=this.a
 if(s.c!=null){s.am(new A.a8L(s))
@@ -73108,6 +73108,7 @@ B.wv=new A.q2(0,"words")
 B.ww=new A.q2(1,"sentences")
 B.wx=new A.q2(2,"characters")
 B.JL=new A.a45(3,"none")
+B.e=new A.xf(0)
 B.jd=new A.nr(0,"character")
 B.JO=new A.nr(1,"word")
 B.wz=new A.nr(2,"paragraph")
@@ -73143,7 +73144,6 @@ B.K5=new A.xq(B.f,null)
 B.wD=new A.e8(0,0,B.i,!1,0,0)
 B.wE=new A.j(!1,null,null,null,null,null,14,B.o,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Ll=new A.j(!1,null,null,null,null,null,15,B.o,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.e=new A.xf(0)
 B.Ly=new A.j(!1,B.hE,null,"CupertinoSystemText",null,null,17,null,null,-0.41,null,null,null,null,null,null,null,B.e,null,null,null,null,null,null,null,null)
 B.zo=new A.y(0.8156862745098039,1,0,0,B.h)
 B.wy=new A.xf(1)

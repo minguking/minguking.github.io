@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     final app = MaterialApp.router(
       title: 'Mingu Kang',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Mingu Kang'),
