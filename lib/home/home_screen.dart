@@ -35,7 +35,12 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           child: NestedScrollView(
             // controller: PrimaryScrollController.of(context), // 상위 AppBar와 Scroll 동기화
             headerSliverBuilder: (context, innerBoxIsScrolled) => [
-              const SliverToBoxAdapter(child: SizedBox(height: 80)), // 상위 AppBar 높이만큼 간격 맞추기
+              SliverToBoxAdapter(
+                child: Container(
+                  height: 80,
+                  color: Colors.blue,
+                ),
+              ), // 상위 AppBar 높이만큼 간격 맞추기
               // SliverOverlapAbsorber(handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),),
               SliverOverlapAbsorber(
                 handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
@@ -43,13 +48,12 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                   backgroundColor: Colors.grey,
                   toolbarHeight: 0,
                   pinned: true,
-                  flexibleSpace: Container(color: Colors.white),
+                  // flexibleSpace: Container(color: Colors.white),
                   forceMaterialTransparency: true,
-                  bottom: _buildTabBar(),
+                  // bottom: _buildTabBar(),
                 ),
               ),
             ],
-
             body: Column(
               children: [
                 TabBar(
@@ -93,10 +97,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
         // alignment: Alignment.center,
         children: [
           Align(
-            // alignment: Alignment.center,
             child: Container(
-              // margin: const EdgeInsets.fromLTRB(0, 0, 0, 1),
-              // color: Colors.yellow,
               width: double.infinity,
               height: 1,
             ),
@@ -112,16 +113,14 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 width: 3,
               ),
             ),
-            tabs: const [
+            tabs: [
               SizedBox(
-                width: 60,
                 height: 48,
                 child: Center(
                   child: Text('here1',),
                 ),
               ),
               SizedBox(
-                width: 60,
                 height: 48,
                 child: Center(
                   child: Text('here2',),

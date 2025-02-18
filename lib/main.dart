@@ -58,20 +58,74 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // return Scaffold(
+    //   appBar: AppBar(
+    //     // leading: CloseButton(onPressed: () => GoRouter.of(context).pop()),
+    //     // backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+    //     title: Text(_getSelectedAppBarTitle(_currentIndex)),
+    //   ),
+    //   body: widget.child,
+    //   bottomNavigationBar: BottomNavigationBar(
+    //     currentIndex: _getSelectedIndex(context),
+    //     onTap: (index) => _onTap(context, index),
+    //     items: const [
+    //       BottomNavigationBarItem(icon: Icon(Icons.work_outline), label: 'Home'),
+    //       BottomNavigationBarItem(icon: Icon(Icons.book_online), label: 'History'),
+    //       BottomNavigationBarItem(icon: Icon(Icons.email), label: 'Contact'),
+    //     ],
+    //   ),
+    // );
+
+    double screenWidth = MediaQuery.of(context).size.width > 480 ? 480 : MediaQuery.of(context).size.width;
+
     return Scaffold(
-      appBar: AppBar(
-        // leading: CloseButton(onPressed: () => GoRouter.of(context).pop()),
-        // backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(_getSelectedAppBarTitle(_currentIndex)),
-      ),
-      body: widget.child,
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _getSelectedIndex(context),
-        onTap: (index) => _onTap(context, index),
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.work_outline), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.book_online), label: 'History'),
-          BottomNavigationBarItem(icon: Icon(Icons.email), label: 'Contact'),
+      backgroundColor: Colors.white,
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            backgroundColor: Colors.white,
+            pinned: true,
+            stretch: true,
+            expandedHeight: 120.0, // Large Title이 보이는 최대 높이
+            flexibleSpace: LayoutBuilder(
+              builder: (context, constraints) {
+                double maxExtent = 120.0;
+                double minExtent = kToolbarHeight;
+                double percentage = (constraints.maxHeight - minExtent) / (maxExtent - minExtent);
+
+                // 왼쪽 → 중앙으로 이동하는 애니메이션을 위한 보정 값
+                double titleLeftPadding = 16.0 + (1 - percentage) * (screenWidth / 2 - 56);
+                // double titleSize = 32 * (0.5 + 0.5 * percentage);
+                double titleSize = 18 + (32 - 18) * percentage;
+
+                return Stack(
+                  alignment: Alignment.bottomLeft,
+                  children: [
+                    Container(color: Colors.white,), /// 백그라운드 컬러를 넣어준다.
+                    Positioned(
+                      left: titleLeftPadding,
+                      bottom: 16.0 + (percentage * 20), // 부드럽게 위로 이동
+                      child: Text(
+                        "Large Title",
+                        style: TextStyle(
+                          fontSize: titleSize,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ],
+                );
+              },
+            ),
+          ),
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+                  (context, index) => ListTile(
+                title: Text("Item $index"),
+              ),
+              childCount: 50,
+            ),
+          ),
         ],
       ),
     );
