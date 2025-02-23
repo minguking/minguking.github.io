@@ -9,18 +9,33 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
+  final myWorks = [
+    'Kpick',
+    'Stipop',
+    'Bepro',
+    'Parking Cloud',
+    'Vridge',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      child: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            context.push('/home/detail');
-          },
-          child: const Text('Go to Detail'),
-        ),
+      child: ListView.builder(
+        itemCount: myWorks.length,
+        itemBuilder: (BuildContext listContext, int index) {
+          return Text(myWorks[index]);
+        },
       ),
+      // child: Center(
+      //   child: ElevatedButton(
+      //     onPressed: () {
+      //       context.push('/home/detail');
+      //     },
+      //     child: const Text('Go to Detail'),
+      //   ),
+      // ),
     );
   }
 }
