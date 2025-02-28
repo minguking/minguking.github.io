@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             builder: (build, layoutConstraint) {
               return Center(
                 child: ConstrainedBox(
-                  constraints: const BoxConstraints(maxWidth: 480),
+                  constraints: const BoxConstraints(maxWidth: 640),
                   child: app,
                 ),
               );
