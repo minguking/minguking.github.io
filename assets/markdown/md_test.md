@@ -1,56 +1,109 @@
-# Smart usage of Obsidian (iPhone, Mac, Git, & as a team)
-### Use Obsidian synchronously in Mac, iPhone using GIt, iCloud. Smart solution
+# Mingu Kang
+## Software Engineer
+
 ---
-### Before start,
 
-1. you have to download `Obsidian Git` for your Mac Obsidian app from Community plugins. [For more info](https://github.com/denolehov/obsidian-git)
-   - Create a git `repository` to upload your local Obsidian works.
-   - Now, your local Obsidian works will automatically commit and push as you set.
-2. you have to download Obsidian iOS app for your apple device and if you've never used this app, please follow below
+## 📍 INFO
 
->open the app and create a vault __enabling Store iCloud__ so that it can automatically create an `Obsidian` folder inside iCloud.
+Experienced Software Engineer with 3+ years in the IT industry, dedicated to crafting user-friendly interfaces and enhancing user experiences. Currently, thriving as a Cellular Engineer, diving deep into both software and hardware, while also gaining a deeper understanding of mobile network technologies, RF, and NFC.
 
+**Address**  
+Hanam-si, Gyeonggi-do, Korea, Republic of
 
-<br>
+**Phone**  
+(+82) 10-5961-7526
 
-Your Obsidian is now syncing with Git. __But you want to sync it with your iPhone as well.__
+**E-mail**
+- Personal: [minqu.kang@gmail.com](mailto:minqu.kang@gmail.com)
+- Work: [mingu_kang@apple.com](mailto:mingu_kang@apple.com)
+- School: [mgkang@utexas.edu](mailto:mgkang@utexas.edu)
 
-### Let's start
+---
 
-Now, what we're going to do is to clone `Obsidian repository` that you've created. <br>
-We're not just cloning into your local Mac directory but into your iCloud -> Obsidian folder
+## 🛠 SKILLS
 
-Using terminal, direct to iCloud folder -> Obsidian isn't pretty easy. <br>
-So, to make it easier, open terminal and type in terminal command below:
+### Programming
+- Swift / Objective-C
+- Dart / Flutter
+- RxSwift / RxCocoa
+- JavaScript / React
+- Python
+- C / C++
 
-````shell
-$ cd ~
-$ ln -s Library/Mobile\ Documents/iCloud~md~obsidian/Documents/ Obsidian
-$ cd Obsidian
-````
-This command creates the links for the files/folders
+### Others
+- QA
+- Project Leading
+- Communication
 
-now, we can direct to iCloud -> Obsidian folder very easily by just typing `cd Obsidian` only.
+---
 
-<br>
+## 💼 WORK EXPERIENCE
 
-You can now git clone into the obsidian folder and enjoy git - iCloud synchronous environment.
-Once cloning is completed, open your iOS Obsidian app, find cloned folder/files and check beautifully synced between devices.
+### **Apple Korea / Software Engineer & Cellular Engineer**
+📅 *Jan. 22, 2024 - Current (Seoul, Korea)*
+- Ensuring compliance with network standards of the country.
+- Conducting thorough 3G/4G/5G network, RF, NFC technologies, and iOS software log analysis & debugging User Equipment issues.
+- Investigating issues for iPhone, Watch, iPad, and other Apple devices.
 
+### **Stipop / Software Engineer, Project Leader**
+📅 *Mar. 20, 2023 - Nov. 30, 2023 (Seoul, Korea / California, USA / Remote)*
+- Led app service localization project, enabling services in 4 languages (English, Korean, Spanish, Portuguese).
+- Developed new features for iOS app and Flutter SDK:
+   - AI sticker generation using OpenAI, Leonardo, and StableDiffusion API.
+   - Artist subscription model.
+   - Componentized reusable custom views for easy and quick creation.
+- Revamped UI/UX with sophisticated designs.
 
-### More
+### **Bepro UK / Software Engineer, iOS App Developer**
+📅 *Sep. 06, 2021 - Dec. 31, 2022 (London, UK / Remote)*
+- Transitioned app from iOS Native to Flutter.
+- Shifted business model from B2B to B2C.
+- Renewed and upgraded custom 2D/3D video player.
+- Utilized RxSwift for better code readability and asynchronous task handling.
+- Contributed to contracts with major football teams such as Real Madrid, AC Milan, and Crystal Palace.
 
-If you set your Obsidian Git plugin `Pull updates on startup` turned on, your iPhone will show you an error that is failed to pull/push once you open the app. That's because you didn't login to your Git on your iOS Obsidian app.
+### **Parking Cloud / iOS App Developer**
+📅 *Nov. 23, 2020 - Aug. 27, 2021 (Seoul, Korea)*
+- Developed a Smart Parking System iOS app for Korean Air.
+- Migrated Objective-C code to Swift and storyboard UI to code-based UI.
+- Maintained and developed 7 iOS apps.
 
-<br>
+### **AirAsia X / Cabin Crew**
+📅 *Aug. 14, 2018 - Aug. 14, 2020 (Kuala Lumpur, Malaysia)*
+- Worked as an international long-haul cabin crew.
 
-<br>
+### **Hamilton Island Enterprises / Guest Service Attendant**
+📅 *Dec. 23, 2015 - Aug. 10, 2017 (Queensland, Australia)*
+- Served as F&B Attendant / Guest Service Attendant in a fine dining restaurant / 6-star hotel.
 
-Inside of your Obsidian app -> Settings -> Obsidian Git -> Authentication/Commit Author
-enter your username on GitHub, type in your password.
-Restart your Obsidian, it will work perfectly.
+### **Republic of Korea Army / Signal Corpsman, IT Help Desk**
+📅 *Nov. 19, 2013 - Aug. 18, 2015 (Korea, Republic of)*
+- Managed encrypted communication equipment.
+- Provided IT Help Desk services (server, network, VPN, IT asset, and lifecycle management).
 
+---
 
+## 🎓 EDUCATION
 
+### **Seoul Digital University / Bachelor of Engineering**
+📅 *Aug. 2022 - Feb. 2024 (Seoul, Korea)*
+- Major: Computer Engineering (GPA: 3.43 / 4.5)
+- Transferred to Seoul Digital University to study Computer Engineering while working as a software engineer.
 
+### **University Of Texas at Austin / Master of Science**
+📅 *Aug. 2024 - Current*
+- Major: Computer Science
+- Currently studying online.
 
+---
+
+## 🏆 OTHER
+
+### **Best iOS App Award**
+📅 *Nov. 2020 (Seoul, Korea)*
+- Awarded by Hanhwa iOS Dreamin Academy.
+- Developed and deployed the top-performing app among 10 teams.
+
+### **SeSAC App Developer Debut Course Special Lecture (part-time)**
+📅 *Feb. 2021 (Seoul, Korea)*
+- Delivered a guest lecture at SeSAC iOS Academy.  

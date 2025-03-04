@@ -3,9 +3,8 @@ import 'package:go_router/go_router.dart';
 import 'package:mingu_kang/home/home_detail_screen.dart';
 import 'package:mingu_kang/home/home_screen.dart';
 import 'package:mingu_kang/main.dart';
-
-import '../contact/contact_detail_screen.dart';
-import '../contact/contact_screen.dart';
+import '../cv/cv_detail_screen.dart';
+import '../cv/cv_screen.dart';
 import '../project/project_detail_screen.dart';
 import '../project/project_screen.dart';
 
@@ -49,7 +48,7 @@ class CustomRouter {
         path: '/contact',
         pageBuilder: (context, state) => MaterialPage(
           child: MyHomePage(
-            child: const ContactScreen(),
+            child: const CVScreen(),
           ),
         ),
         routes: [

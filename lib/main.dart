@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.work_outline), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.book_online), label: 'History'),
-          BottomNavigationBarItem(icon: Icon(Icons.email), label: 'Contact'),
+          BottomNavigationBarItem(icon: Icon(Icons.email), label: 'CV'),
         ],
       ),
     );
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
     switch (index) {
       case 0: return 'Mingu Kang';
       case 1: return 'History';
-      case 2: return 'Contact';
+      case 2: return 'CV';
       default: return 'Unknown';
     }
   }
