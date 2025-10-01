@@ -1,7 +1,7 @@
 args
 3.3
-file:///Users/mingukang/.pub-cache/hosted/pub.dev/args-2.6.0/
-file:///Users/mingukang/.pub-cache/hosted/pub.dev/args-2.6.0/lib/
+file:///Users/mingukang/.pub-cache/hosted/pub.dev/args-2.7.0/
+file:///Users/mingukang/.pub-cache/hosted/pub.dev/args-2.7.0/lib/
 async
 3.4
 file:///Users/mingukang/.pub-cache/hosted/pub.dev/async-2.12.0/
@@ -36,12 +36,12 @@ file:///Users/mingukang/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0/
 file:///Users/mingukang/.pub-cache/hosted/pub.dev/flutter_lints-5.0.0/lib/
 flutter_markdown
 3.4
-file:///Users/mingukang/.pub-cache/hosted/pub.dev/flutter_markdown-0.7.6+2/
-file:///Users/mingukang/.pub-cache/hosted/pub.dev/flutter_markdown-0.7.6+2/lib/
+file:///Users/mingukang/.pub-cache/hosted/pub.dev/flutter_markdown-0.7.7+1/
+file:///Users/mingukang/.pub-cache/hosted/pub.dev/flutter_markdown-0.7.7+1/lib/
 go_router
 3.4
-file:///Users/mingukang/.pub-cache/hosted/pub.dev/go_router-14.8.0/
-file:///Users/mingukang/.pub-cache/hosted/pub.dev/go_router-14.8.0/lib/
+file:///Users/mingukang/.pub-cache/hosted/pub.dev/go_router-14.8.1/
+file:///Users/mingukang/.pub-cache/hosted/pub.dev/go_router-14.8.1/lib/
 leak_tracker
 3.2
 file:///Users/mingukang/.pub-cache/hosted/pub.dev/leak_tracker-10.0.8/

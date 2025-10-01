@@ -79,7 +79,7 @@ Hanam-si, Gyeonggi-do, Korea, Republic of
 ### **Republic of Korea Army / Signal Corpsman, IT Help Desk**
 📅 *Nov. 19, 2013 - Aug. 18, 2015 (Korea, Republic of)*
 - Managed encrypted communication equipment.
-- Provided IT Help Desk services (server, network, VPN, IT asset, and lifecycle management).
+- Provided IT Help Desk services (server, network, VPN, IT asset, and device lifecycle management).
 
 ---
 
@@ -93,7 +93,7 @@ Hanam-si, Gyeonggi-do, Korea, Republic of
 ### **University Of Texas at Austin / Master of Science**
 📅 *Aug. 2024 - Current*
 - Major: Computer Science
-- Currently studying online.
+- Currently Leave of Absence.
 
 ---
 
